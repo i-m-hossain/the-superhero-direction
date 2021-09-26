@@ -1,0 +1,7 @@
+.nav-bg{
+    background-color: var(--secondary); 
+}
+.hero{
+    background-color: var(--secondary);
+    border-top: 3px solid #594a4e;
+}
