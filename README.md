@@ -1,5 +1,5 @@
 # Programming Hero 
-<strong>We add programmers to our Hero list</strong>
+<strong><p>We add programmers to our Hero list<p></strong>
 Live Website link: [Programming hero](https://github.com/facebook/create-react-app).
 
 ## Project outline
