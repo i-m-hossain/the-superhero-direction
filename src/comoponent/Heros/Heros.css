@@ -14,5 +14,13 @@
 .btn-color{
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
+}
+.border-left{
+    border-left:  2px solid #bdbbbb;
+}
 
+.hero-added{
+    border: 1px solid var(--secondary);
+    border-radius: 10px;
 }

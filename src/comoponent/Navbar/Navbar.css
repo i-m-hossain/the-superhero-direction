@@ -3,5 +3,6 @@
 }
 .hero{
     background-color: var(--secondary);
-    border-top: 3px solid #594a4e;
+    border-top: 2px solid #bdbbbb;
+    border-bottom: 2px solid #bdbbbb;
 }

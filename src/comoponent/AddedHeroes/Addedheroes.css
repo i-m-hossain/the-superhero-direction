@@ -1,0 +1,9 @@
+.hero-added{
+    border: 1px solid var(--secondary);
+    border-radius: 10px;
+}
+.img-rounded{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 80px;
+}
