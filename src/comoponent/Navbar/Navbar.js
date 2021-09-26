@@ -30,6 +30,7 @@ const Navbar = () => {
             </nav>
             <div className="hero p-2 fs-5">
                 <h4 className="text-center">Programming Hero</h4>
+                <p className="text-center font-weight-light">We add programmers to our Hero list</p>
                 <p className="font-weight-bold text-center pt-2">Total budget: $14326431</p>
             </div>  
         </>
