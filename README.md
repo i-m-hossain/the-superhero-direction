@@ -1,6 +1,6 @@
 # Programming Hero 
 <p><strong>We add programmers to our Hero list</strong></p>
-<p>Live Website link: [Programming hero](https://programming-hero-assignment-react.netlify.app/).</p>
+Live Website link: [Programming hero](https://programming-hero-assignment-react.netlify.ap/)
 
 ## Project outline
 <li>JSON fake data is created</li>
