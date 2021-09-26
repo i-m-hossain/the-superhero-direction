@@ -4,9 +4,13 @@
   --button:#ff8ba7;
   --button-trxt: #33272a;
   --secondary: #ffc6c7;
-  --text-color: #594a4e
+  --text-color: #594a4e;
 }
 
 .text-color{
   color: var(--text-color);
+}
+
+.background-color{
+  background-color: var(--bg-color);
 }

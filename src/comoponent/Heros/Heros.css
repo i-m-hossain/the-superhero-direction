@@ -1,0 +1,18 @@
+.hero-img{
+    
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.title{
+    font-weight: bold;
+}
+.text-button{
+    background-color: var(--button);
+}
+.btn-color{
+    font-size: 20px;
+    font-weight: 600;
+
+}
