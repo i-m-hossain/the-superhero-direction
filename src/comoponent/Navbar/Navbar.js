@@ -6,7 +6,12 @@ const Navbar = () => {
         <>
             <nav className="navbar navbar-expand-lg navbar-light nav-bg ps-5 pe-5 fs-5">
                 <a className="navbar-brand text-color" href="#">Programming Hero</a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <button 
+                    className="navbar-toggler" 
+                    type="button"                    
+                    data-toggle="collapse" 
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" 
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
@@ -30,8 +35,12 @@ const Navbar = () => {
             </nav>
             <div className="hero p-2 fs-5">
                 <h4 className="text-center">Programming Hero</h4>
-                <p className="text-center font-weight-light">We add programmers to our Hero list</p>
-                <p className="font-weight-bold text-center pt-2">Total budget: $14326431</p>
+                <p className="text-center font-weight-light">
+                    We add programmers to our Hero list
+                </p>
+                <p className="font-weight-bold text-center pt-2">
+                    Total budget: $150 Million
+                </p>
             </div>  
         </>
     );

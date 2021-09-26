@@ -9,5 +9,9 @@ Live Website link: [Programming hero](https://programming-hero-assignment-react.
 <li>JSON data is fetched and displayed using useEffect and UseState </li>
 <li>Each Hero Component has an add to button , when clicked it will be added to the Hero List</li>
 <li>Hero list will display the progrmmer name, image and salary</li>
+
+### Used package
+<li>Bootstrap </li>
+<li>Font Awesome</li>
     
 
