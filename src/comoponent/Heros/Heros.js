@@ -4,7 +4,6 @@ import React from 'react';
 import './Heros.css'
 
 const Heros = (props) => {
-    console.log(props.hero);
     const{name, age, company, image, salary, phone} =props.hero
     return (
         <div className="card-group col ">

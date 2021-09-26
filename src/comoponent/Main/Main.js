@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import AddedHeroes from '../AddedHeroes/AddedHeroes';
+import HeroList from '../HeroList/HeroList';
 import Heros from '../Heros/Heros';
 import './Main.css'
 const Main = () => {
@@ -20,7 +20,7 @@ const Main = () => {
             <div className="col-md-8"> 
                 <div className="row row-cols-3">
                     {
-                        heroes.map(hero => <Heros hero={hero} handleAddProgrammer={handleAddProgrammer}></Heros>)
+                        heroes.map(hero => <Heros hero={hero} key={hero.id} handleAddProgrammer={handleAddProgrammer}></Heros>)
                     }
                 </div>
                 
@@ -31,7 +31,7 @@ const Main = () => {
                         <p>Programmers Added: {programmers.length}</p>
                     </div>
                     {
-                        programmers.map(programmer => <AddedHeroes programmer={programmer}></AddedHeroes>)
+                        programmers.map(programmer => <HeroList programmer={programmer} key={programmer.id}></HeroList>)
                     }
                 </div>     
            </div>

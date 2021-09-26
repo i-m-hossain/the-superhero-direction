@@ -1,7 +1,7 @@
 import React from 'react';
-import './Addedheroes.css'
+import './HeroList.css'
 
-const AddedHeroes = (props) => {
+const HeroList = (props) => {
     const{name, image, salary} = props.programmer
     return (
         <div className="col-12">
@@ -14,4 +14,4 @@ const AddedHeroes = (props) => {
     );
 };
 
-export default AddedHeroes;
+export default HeroList;
